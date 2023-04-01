@@ -1,0 +1,14 @@
+[package]
+name = "tic_reader"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+byteorder = "1.4.3"
+regex = "1"
+casey = "0.3.3"
+chrono = "0.4.23"
+
+[[bin]]
+name = "create_capabilities"
+path = "src/create_capabilities.rs"
